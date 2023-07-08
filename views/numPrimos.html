@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números primos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/estilos.css">
+    <link rel="stylesheet" href="../public/css/form.css">
+    <link rel="stylesheet" href="../public/css/numPrimos.css">
+</head>
+<body>    
+    <div class="context">
+        <header>
+            <a href="/" class="logo">Inicio</a>
+            <nav>
+              <a href="/numPrimos"        class="active">Primos</a>
+              <a href="/palaPalindromas"  >Palindromos</a>
+              <a href="/contrasena"       >Generar contraseña</a>
+              <a href="/conversor"        >Conversor</a>
+              <a href="/adivinaNum"       >Adivina un número</a> 
+            </nav>
+        </header>
+        <p class="nota">Esta es una aplicacion la cual determina si el numero que ingresaste es primo o no lo es</p>
+        <p class="nota">Los numeros primos son a quellos que solo son divisibles entre uno y si mismos. </p>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control txtNumero" id="floatingInput" placeholder="Ingresa un número" style="width: 300px; background: #00000000; color: #fff;">
+            <label for="floatingInput" style="color: #fff;">Ingresa un número</label>
+        </div>
+        <div id="cont-respuesta">
+            <div id="cont1">
+                <p>El número es primo</p>
+            </div>
+            <div id="cont2">
+                <p>El número no es primo</p>
+            </div>
+        </div>        
+        <div class="cont-btn">
+            <button class="btn btn-primary" onclick="verificarPrimo()">Calcular</button>
+        </div>  
+    </div>
+    <script src="../public/js/funciones.js"></script>
+    <script src="../public/js/fondo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

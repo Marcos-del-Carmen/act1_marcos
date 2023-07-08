@@ -1,0 +1,162 @@
+label {
+    color: #fff;
+}
+
+input {
+    width: 350px;
+    background: #ffffff00;
+    color: #ffffff;
+}
+.form-control, 
+.form-control:focus,
+.form-control:checked  
+{
+    background: #ffffff00;
+    color: #fff;
+}
+
+.mb-3 {
+    display: inline-block;
+    margin: 0px 20px 0px 10px;
+}
+ 
+.cont-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nota {
+    margin: 0px;
+    text-align: right;
+    transition: 1s all;
+}
+
+#btnContrasena {
+    margin-bottom: 20px;
+}
+
+.alert-pf {
+    margin-left: 10px;
+}
+
+#cont1, #cont2 {
+    display:inline-block;
+    width: 35%;
+    height: 250px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 20px 80px;
+    transition: 1s all;
+}
+
+#cont1 p, #cont2 p {
+    margin: 25% 0px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.9em;
+    padding: 5px;
+}
+
+/* 
+    ESTILOS DEL NAVEGADOR
+*/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 1180px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.logo {
+    position: relative;
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    gap: 10px;
+}
+
+header nav a {
+    position: relative;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: 500;
+} 
+
+header nav a.active {
+    background-color: #005b5e;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header nav a.active::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 0 5px #005b5e;
+}
+
+header nav a.active::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-bottom-left-radius: 20px;
+    box-shadow: -5px 5px 0 5px #005b5e;
+}
+
+
+
+
+/** 
+ * ESTILOS DEL APARTADO DE ADIVINA UN NUMERO 
+ */
+#gameContainer {
+    margin-top: 20px;
+}
+
+#gameContainer div h2 {
+    font-weight: 550;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+}
+.list-btn {
+  display: table;
+  margin: 0 auto;
+}
+
+.list-btn button{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#numInput {
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 5px;
+}

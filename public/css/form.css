@@ -1,0 +1,45 @@
+/* 
+    ESTILOS PARA EL FORMULARIO
+*/
+
+label {
+    color: #fff;
+}
+
+input {
+    width: 350px;
+    background: #ffffff00;
+    color: #ffffff00;
+}
+.form-control, 
+.form-control:focus,
+.form-control:checked  
+{
+    background: #ffffff00;
+    color: #fff;
+}
+
+.mb-3 {
+    display: inline-block;
+    margin: 0px 20px 0px 10px;
+}
+ 
+.cont-btn {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    display: inline-block;
+}
+
+#btnContrasena {
+    margin-bottom: 20px;
+}
+
+.alert-pf {
+    margin-left: 10px;
+}
+
+#resultContainer {
+    transition: all 1s;
+}
+
